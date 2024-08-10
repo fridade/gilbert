@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('create directory') {
             steps {
-                sh 'mkdir gilbert'
+                sh 'mkdir gilbert24'
             }
         }
         stage('create file') {
