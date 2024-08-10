@@ -7,5 +7,10 @@ pipeline {
                 sh 'mkdir gilbert'
             }
         }
+        stage('create directory') {
+            steps {
+                sh 'touch fritz'
+            }
+        }
     }
 }
