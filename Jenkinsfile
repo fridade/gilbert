@@ -7,7 +7,7 @@ pipeline {
                 sh 'mkdir gilbert'
             }
         }
-        stage('create directory') {
+        stage('create file') {
             steps {
                 sh 'touch fritz'
             }
